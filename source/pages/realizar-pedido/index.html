@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realizar Pedido - Melo Churros</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="../../assets/img/melo-logo.png" alt="Logo Melo Churros">
+            </div>
+            <div class="address">
+                <label for="address-select">Selecione um endereço:</label>
+                <select id="address-select">
+                    <option value="1">Rua das Flores, 123</option>
+                    <option value="2">Avenida Brasil, 456</option>
+                    <option value="3">Praça da Liberdade, 789</option>
+                    <option value="4">Rua dos Lírios, 101</option>
+                </select>
+            </div>
+        </div>
+        <div class="title-container">
+            <h1>Realizar Pedido</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="pedido-container">
+            <div class="dropdown">
+                <label for="sabor-churros">Sabor Churros:</label>
+                <select id="sabor-churros" multiple>
+                    <option>Doce de Leite</option>
+                    <option>Chocolate</option>
+                    <option>Leite Condensado</option>
+                    <option>Leite Ninho</option>
+                    <option>Chocolate Branco</option>
+                    <option>Paçoca</option>
+                    <option class="highlighted">Beijinho</option>
+                    <option class="highlighted">Laka</option>
+                    <option class="highlighted">Goiabada</option>
+                    <option class="highlighted">Nutella</option>
+                    <option class="highlighted">Ovomaltine</option>
+                </select>
+            </div>
+            <div class="dropdown">
+                <label for="confetes">Confetes:</label>
+                <select id="confetes" multiple>
+                    <option>Granulado Colorido</option>
+                    <option>Chocolate</option>
+                    <option>Leite Condensado</option>
+                    <option>Leite Ninho</option>
+                    <option>Chocolate Branco</option>
+                    <option>Paçoca</option>
+                    <option>Coco Ralado</option>
+                </select>
+            </div>
+        </div>
+        <div class="cart">
+            <i class="fas fa-shopping-cart"></i>
+            <div class="valor">
+                <span>VALOR</span>
+                <span>R$</span>
+            </div>
+        </div>
+        <a href="../sucesso/index.html" class="confirm-btn">Confirmar Pedido</a>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="nav-links">
+                <a href="../quem-somos/index.html">Quem Somos</a>
+                <a href="../tabela-precos/index.html">Tabela de Preços</a>
+                <a href="../formas-de-comunicacao/index.html">Formas de Comunicação</a>
+            </div>
+            <p>&copy; 2024 Melo Churros. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
